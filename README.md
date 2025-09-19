@@ -1,6 +1,6 @@
-# Ecommerce demo store - Playwright (javascript) tests
+# Playwright short tests suite
 
-Automated end-to-end tests for Ecommerce demo store using [Playwright](https://playwright.dev/).
+Playwright short automated tests using [Playwright](https://playwright.dev/). This suite contains 10 focused test cases optimized for fast execution (typically 15–20 seconds total on a modern laptop).
 
 ---
 
@@ -26,6 +26,31 @@ Automated end-to-end tests for Ecommerce demo store using [Playwright](https://p
 ```sh
 npm install
 ```
+
+---
+
+## Fast execution
+
+- 10 lean test cases designed to complete in ~15–20 seconds locally
+- Parallel execution is enabled by default via Playwright
+
+---
+
+## Quick start (fast)
+
+Run the full 10-case suite with parallel workers for fastest feedback:
+
+```sh
+npx playwright test --workers=4
+```
+
+---
+
+## What’s included
+
+- 10 lean test cases targeting key flows of the demo store
+- Parallel-ready by default via Playwright test runner
+- HTML report and JSON report generation for local review and integrations
 
 ---
 
